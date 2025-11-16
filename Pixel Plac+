@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel plas+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">Pixel plas+</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#services">خدمات</a></li>
+                    <li><a href="#portfolio">نمونه‌کار</a></li>
+                    <li><a href="#about">درباره ما</a></li>
+                    <li><a href="#contact">تماس</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-content">
+            <h1>طراحی وب کلاسیک و حرفه‌ای</h1>
+            <p>پروژه شما را با سبک و کیفیت بالا به واقعیت تبدیل می‌کنیم.</p>
+            <a href="#contact" class="btn">شروع پروژه</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>خدمات ما</h2>
+            <div class="service-cards">
+                <div class="card">طراحی سایت</div>
+                <div class="card">طراحی UI/UX</div>
+                <div class="card">سئو و پشتیبانی</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>نمونه‌کارها</h2>
+            <div class="portfolio-items">
+                <div class="item">پروژه 1</div>
+                <div class="item">پروژه 2</div>
+                <div class="item">پروژه 3</div>
+                <div class="item">پروژه 4</div>
+                <div class="item">پروژه 5</div>
+                <div class="item">پروژه 6</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>درباره ما</h2>
+            <p>ما تیمی حرفه‌ای در طراحی وب هستیم و با تجربه در پروژه‌های متنوع، خدماتی با کیفیت بالا ارائه می‌دهیم.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>تماس با ما</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="نام شما" required>
+                <input type="email" placeholder="ایمیل شما" required>
+                <textarea placeholder="توضیح پروژه" required></textarea>
+                <button type="submit">ارسال</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Pixel Studio. تمام حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
